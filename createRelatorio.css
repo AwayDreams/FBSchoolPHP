@@ -1,0 +1,72 @@
+body{
+    font-family: sans-serif;
+}
+
+.cardtitle{
+    box-shadow: 1px 1px 5px #ccc;
+    background-color: rgb(232, 179, 248);
+    padding: 1px;
+    border-radius: 5px;
+    float: center;
+    align-self: center;
+    margin-bottom: 0 auto;
+}
+
+.cardtitle > h1{
+    text-align: center;
+}
+
+
+.caixadisciplina{
+    width: 600px;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid  black;
+    overflow: scroll;
+
+    float: center;
+    align-self: center;
+    text-align: center;
+
+    margin-top:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.disciplina{
+    width: 100px;
+    height: 100px;
+    box-shadow: 1px 1px 5px #ccc;
+    background-color: rgb(232, 179, 248);
+    padding: 1px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.disciplina > h1{
+    margin: 5px;
+    font-size: 14px;
+}
+
+.disciplina > p {
+    margin: 5px;
+    font-size: 12px
+}
+
+#reacao{
+    float: center;
+    align-self: center;
+    text-align: center;
+
+    margin-top:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+

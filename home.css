@@ -1,0 +1,59 @@
+body{
+    font-family: sans-serif;
+}
+
+.cardtitle{
+    box-shadow: 1px 1px 5px #ccc;
+    background-color: rgb(232, 179, 248);
+    padding: 1px;
+    border-radius: 5px;
+    float: center;
+    align-self: center;
+    margin-bottom: 0 auto;
+}
+.cardtitle > h1{
+    text-align: center;
+}
+
+.card{
+    box-shadow: 1px 1px 5px #ccc;
+    background-color: rgb(232, 179, 248);
+    padding: 1px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.card > h1{
+    margin: 5px;
+}
+
+.card > p {
+    margin: 5px;
+}
+
+.secaoesquerda{
+    width: 500px;
+    float:left;
+    margin-left: 40px;
+}
+
+.secaodireita{
+    width: 500px;
+    float:right;
+    margin: 0
+}
+
+
+.secaoglobal{
+    float:center;
+}
+
+
+.botao {
+    background-color: rgb(232, 179, 248);
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid  black;
+    margin: 5px;
+    float: right;
+}

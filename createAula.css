@@ -1,0 +1,70 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+
+
+.cardtitle{
+    box-shadow: 1px 1px 5px #ccc;
+    background-color: rgb(232, 179, 248);
+    padding: 1px;
+    border-radius: 5px;
+    float: center;
+    align-self: center;
+    margin-bottom: 5px;
+}
+
+.cardtitle > h1{
+    text-align: center;
+}
+
+
+.card{
+    box-shadow: 1px 1px 5px #ccc;
+    background-color: rgb(232, 179, 248);
+    padding: 5px;
+    border-radius: 5px;
+    float: center;
+    align-self: center;
+    height: 80px;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+    
+}
+
+.card > p {
+    margin: 5px;
+    
+}
+
+.card > h1 {
+    margin: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.janela {
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid  black;
+    margin: 5px;
+    float: center;
+}
+
+.janela > label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
